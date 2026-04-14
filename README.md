@@ -199,18 +199,18 @@ Output: Summary Statistics.
       📌 Linear Regression (ToolPak)
           Data → Data Analysis → Regression
 
-        Input Y Range:
-        Selector (Dependent Variable)
+          Input Y Range:
+          Selector (Dependent Variable)
 
-        Input X Range:
-        SGPT, SGOT, Total Bilirubin, Albumin
+          Input X Range:
+          SGPT, SGOT, Total Bilirubin, Albumin
 
-        Check:
-        ✔ Labels
-        ✔ Confidence Level (95%)
+          Check:
+          ✔ Labels
+          ✔ Confidence Level (95%)
 
-        Output:
-        Coefficients, P-values, R²
+          Output:
+          Coefficients, P-values, R²
 
         📌 Interpretation Guide
             P-value < 0.05 → Significant predictor
@@ -219,7 +219,33 @@ Output: Summary Statistics.
             
             Negative coefficient → Protective effect
 
-      
+### ⚖️ 5. Group Comparison
+          📌 Using Pivot Table
+          Insert → Pivot Table
+
+          Rows:
+          Selector (0 = Non-Liver, 1 = Liver)
+
+          Values:
+        - Average of Total Bilirubin
+        - Average of SGPT
+        - Average of Albumin
+
+          📌 Using AVERAGEIF
+          Liver Patients (1):
+          
+          =AVERAGEIF(Selector_range,1,SGPT_range)
+
+          Non-Liver Patients (0):
+          =AVERAGEIF(Selector_range,0,SGPT_range)
+          
+          📌 Visualization
+          Insert → Column Chart
+
+          Compare:
+          - Liver vs Non-Liver
+          - Biomarkers (Bilirubin, SGPT, Albumin)
+
 
 ## 📈 Key Findings
 
