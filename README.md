@@ -145,11 +145,8 @@ The dataset consists of **30,000 patient records** with demographic and biochemi
 ### Ensure numeric formatting for biomarkers
 
 Total_Bilirubin → Number
-
 SGPT → Number
-
 Albumin → Number
-
 Selector → Number (0 or 1)
 
 
