@@ -1,5 +1,7 @@
 # 🧬 Liver Disease Patient Analysis 
 
+![Image](https://github.com/user-attachments/assets/5b31a32c-bbf3-4cf9-a7cc-053245093938)
+
 ## 📌 Project Overview
 Analysis of liver disease patients using Microsoft Excel enables efficient data organization, statistical analysis, and visualization. Biomarkers like bilirubin and SGPT are evaluated to identify patterns, correlations, and predictors, supporting clinical interpretation and informed healthcare decisions.
 This project presents a comprehensive analysis of **30,000 liver disease patient records** using Microsoft Excel as the primary analytical tool. The goal is to explore biomarker distributions, identify correlations, and determine key predictors of liver disease for clinical interpretation and decision-making.
