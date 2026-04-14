@@ -49,10 +49,8 @@ Albumin remains more stable but decreases in diseased patients
 Liver enzymes (SGPT, SGOT) rise together
 Bilirubin increases alongside enzyme elevation → coordinated liver dysfunction
 
-### 3. Significant Predictors of Liver Disease (Selector)
-
-* Key predictors identified through regression:
-
+### 3. Significant Predictors of Liver Disease (Selector)  
+  * Key predictors identified through regression:  
   * **SGPT (ALT)**
   * **SGOT (AST)**
   * **Total Bilirubin**
@@ -70,12 +68,11 @@ Bilirubin increases alongside enzyme elevation → coordinated liver dysfunction
 Higher enzyme and bilirubin levels → higher probability of liver disease
 Higher albumin → protective indicator
 
-### 4. Difference Between Liver and Non-Liver Patients
-
+### 4. Difference Between Liver and Non-Liver Patients  
 * **Total Bilirubin**: Significantly higher in liver patients
 * **SGPT**: Markedly elevated in liver patients
 * **Albumin**: Significantly lower in liver patients  
-  👉 Clear biochemical distinction exists between both groups.
+  👉 A clear biochemical distinction exists between both groups.
 
 | Biomarker       | Liver Patients (Selector = 1) | Non-Liver Patients (Selector = 0) | Difference    |
 | --------------- | ----------------------------- | --------------------------------- | ------------- |
@@ -89,10 +86,10 @@ Elevated enzymes and bilirubin
 Reduced protein levels (Albumin)
 Confirms clear biochemical separation between groups
 
-### 5. Strongest Biomarker & Clinical Interpretation
-
+### 5. Strongest Biomarker & Clinical Interpretation  
 * **SGPT (ALT)** is typically the strongest predictor  
-  👉 Clinical meaning:
+
+   👉 Clinical meaning:
 * Elevated SGPT indicates **hepatocellular injury**
 * It is a **sensitive marker for liver damage**, especially in early-stage disease
 Liver disease is strongly associated with elevated enzyme levels (SGPT, SGOT) and bilirubin, alongside reduced albumin. Among these, SGPT shows the highest predictive power, making it a key clinical biomarker for liver dysfunction assessment.
@@ -122,8 +119,7 @@ The dataset consists of **30,000 patient records** with demographic and biochemi
 
 ## 🛠️ Tools & Techniques
 
-* **Microsoft Excel**
-
+* **Microsoft Excel**  
   * Data Cleaning & Preprocessing
   * Pivot Tables
   * Data Analysis ToolPak
@@ -143,20 +139,15 @@ The dataset consists of **30,000 patient records** with demographic and biochemi
 ### 📂 1. Data Preparation
            Remove missing values (Filter → Blanks → Delete)
            Ensure numeric formatting for biomarkers
-Total_Bilirubin → Number
-
-SGPT → Number 
-
-Albumin → Number 
-
-Selector → Number (0 or 1) 
+Total_Bilirubin → Number  
+SGPT → Number    
+Albumin → Number   
+Selector → Number (0 or 1)   
 
 ### 📊 2. Distribution & Average (Q1)
-          📌 Descriptive Statistics (Excel ToolPak)
-Data → Data Analysis → Descriptive Statistics. 
-
-Input Range: Select each biomarker column. 
-
+          📌 Descriptive Statistics (Excel ToolPak)  
+Data → Data Analysis → Descriptive Statistics.   
+Input Range: Select each biomarker column.   
 Output: Summary Statistics. 
 
         📌 Excel Functions
