@@ -39,7 +39,7 @@ Albumin remains more stable but decreases in diseased patients
 * **SGOT and Total Bilirubin**: Moderate positive relationship.
   👉 This indicates coordinated liver dysfunction.
 
-  | Variables               | Relationship Strength | Direction |
+| Variables               | Relationship Strength | Direction |
 | ----------------------- | --------------------- | --------- |
 | SGPT vs SGOT            | Strong                | Positive  |
 | SGPT vs Total Bilirubin | Moderate              | Positive  |
