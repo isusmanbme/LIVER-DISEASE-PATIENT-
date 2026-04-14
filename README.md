@@ -154,7 +154,9 @@ Selector → Number (0 or 1)
 ### 📊 2. Distribution & Average (Q1)
           📌 Descriptive Statistics (Excel ToolPak)
 Data → Data Analysis → Descriptive Statistics. 
+
 Input Range: Select each biomarker column. 
+
 Output: Summary Statistics. 
 
         📌 Excel Functions
@@ -177,17 +179,23 @@ Output: Summary Statistics.
 ### 🔗 3. Correlation Analysis
   
          📌 Correlation Matrix (ToolPak)
-          Data → Data Analysis → Correlation    
+          Data → Data Analysis → Correlation 
+          
           Input Range:
+          
           SGPT, SGOT, Total Bilirubin columns
-
+          
           Grouped by: Columns
+          
           Output: Correlation Matrix
   
         📌 Excel Function Alternative
-          * =CORREL(SGPT_range, SGOT_range)
-          * =CORREL(SGPT_range, Bilirubin_range)
-          * =CORREL(SGOT_range, Bilirubin_range)
+            =CORREL(SGPT_range, SGOT_range)
+            =CORREL(SGPT_range, Bilirubin_range)
+            =CORREL(SGOT_range, Bilirubin_range)
+
+
+
 
 ## 📈 Key Findings
 
