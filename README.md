@@ -1,4 +1,4 @@
-# 🧬 Liver Disease Patient Analysis (Excel-Based)
+# 🧬 Liver Disease Patient Analysis 
 
 ## 📌 Project Overview
 Analysis of liver disease patients using Microsoft Excel enables efficient data organization, statistical analysis, and visualization. Biomarkers like bilirubin and SGPT are evaluated to identify patterns, correlations, and predictors, supporting clinical interpretation and informed healthcare decisions.
@@ -141,7 +141,9 @@ This project demonstrates how Excel can be effectively used for **clinical data 
 
 
 ## 👤 Author
-
-**Ibrahim Salihu Usman**
-Biomedical Engineering | Bioinformatics | Data Analytics
+For collaboration, further study, or inquiries related to this project, please feel free to reach out via email:
+# Ibrahim Salihu Usman
+Biomedical Engineering | Data Analytics | AI in Healthcare
+📧 isusmanbme@gmail.com
+📱 WhatsApp: +234 813 811 8881
 
