@@ -194,8 +194,32 @@ Output: Summary Statistics.
             =CORREL(SGPT_range, Bilirubin_range)
             =CORREL(SGOT_range, Bilirubin_range)
 
+### 📈 4. Regression Analysis 
+      
+      📌 Linear Regression (ToolPak)
+          Data → Data Analysis → Regression
 
+        Input Y Range:
+        Selector (Dependent Variable)
 
+        Input X Range:
+        SGPT, SGOT, Total Bilirubin, Albumin
+
+        Check:
+        ✔ Labels
+        ✔ Confidence Level (95%)
+
+        Output:
+        Coefficients, P-values, R²
+
+        📌 Interpretation Guide
+            P-value < 0.05 → Significant predictor
+            
+            Positive coefficient → Increases disease likelihood
+            
+            Negative coefficient → Protective effect
+
+      
 
 ## 📈 Key Findings
 
