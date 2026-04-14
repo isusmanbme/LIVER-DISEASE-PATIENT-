@@ -21,6 +21,15 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
 * **Total Bilirubin**: Moderately right-skewed distribution with elevated values in liver patients; mean typically higher than median.
 * **SGPT (ALT)**: Widely spread with strong right skew, indicating presence of high enzyme levels in diseased patients.
 * **Albumin**: Relatively normal distribution but slightly lower in liver patients; mean slightly reduced.
+  | Biomarker       | Distribution Shape               | Mean (Approx) | Clinical Insight                   |
+| --------------- | -------------------------------- | ------------- | ---------------------------------- |
+| Total Bilirubin | Right-skewed                     | High          | Elevated in liver disease patients |
+| SGPT (ALT)      | Highly right-skewed              | Very High     | Indicates liver cell injury        |
+| Albumin         | Near-normal/slightly left-skewed | Moderate-Low  | Reduced in liver dysfunction       |
+
+📊 Interpretation
+Enzyme markers (SGPT) show high variability and skewness
+Albumin remains more stable but decreases in diseased patients
 
 ### 2. Correlation Between SGPT, SGOT, and Total Bilirubin
 
@@ -28,6 +37,15 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
 * **SGPT and Total Bilirubin**: Moderate positive correlation.
 * **SGOT and Total Bilirubin**: Moderate positive relationship.
   👉 This indicates coordinated liver dysfunction.
+  | Variables               | Relationship Strength | Direction |
+| ----------------------- | --------------------- | --------- |
+| SGPT vs SGOT            | Strong                | Positive  |
+| SGPT vs Total Bilirubin | Moderate              | Positive  |
+| SGOT vs Total Bilirubin | Moderate              | Positive  |
+
+📈 Key Insight
+Liver enzymes (SGPT, SGOT) rise together
+Bilirubin increases alongside enzyme elevation → coordinated liver dysfunction
 
 ### 3. Significant Predictors of Liver Disease (Selector)
 
@@ -39,12 +57,35 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
   * **Albumin (negative influence)**
     👉 These variables significantly contribute to predicting liver disease status.
 
+  | Variable        | Influence on Disease | Significance |
+| --------------- | -------------------- | ------------ |
+| SGPT (ALT)      | Strong Positive      | High         |
+| SGOT (AST)      | Strong Positive      | High         |
+| Total Bilirubin | Moderate Positive    | Significant  |
+| Albumin         | Negative             | Significant  |
+
+📌 Interpretation
+Higher enzyme and bilirubin levels → higher probability of liver disease
+Higher albumin → protective indicator
+
 ### 4. Difference Between Liver and Non-Liver Patients
 
 * **Total Bilirubin**: Significantly higher in liver patients
 * **SGPT**: Markedly elevated in liver patients
 * **Albumin**: Significantly lower in liver patients
   👉 Clear biochemical distinction exists between both groups.
+
+| Biomarker       | Liver Patients (Selector = 1) | Non-Liver Patients (Selector = 0) | Difference    |
+| --------------- | ----------------------------- | --------------------------------- | ------------- |
+| Total Bilirubin | High                          | Normal/Low                        | Significant ↑ |
+| SGPT (ALT)      | Very High                     | Normal                            | Significant ↑ |
+| Albumin         | Low                           | Normal/High                       | Significant ↓ |
+
+📈 Key Insight
+Liver patients show:
+Elevated enzymes and bilirubin
+Reduced protein levels (Albumin)
+Confirms clear biochemical separation between groups
 
 ### 5. Strongest Biomarker & Clinical Interpretation
 
