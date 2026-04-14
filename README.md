@@ -144,10 +144,10 @@ The dataset consists of **30,000 patient records** with demographic and biochemi
 ### Remove missing values (Filter → Blanks → Delete)
 ### Ensure numeric formatting for biomarkers
 
-Total_Bilirubin → Number
-SGPT → Number
-Albumin → Number
-Selector → Number (0 or 1)
+Total_Bilirubin → Number  
+SGPT → Number 
+Albumin → Number 
+Selector → Number (0 or 1) 
 
 
 
