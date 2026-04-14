@@ -22,14 +22,14 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
 * **SGPT (ALT)**: Widely spread with strong right skew, indicating presence of high enzyme levels in diseased patients.
 * **Albumin**: Relatively normal distribution but slightly lower in liver patients; mean slightly reduced.
   
-  | Biomarker       | Distribution Shape               | Mean (Approx) | Clinical Insight                   |
+| Biomarker       | Distribution Shape               | Mean (Approx) | Clinical Insight                   |
 | --------------- | -------------------------------- | ------------- | ---------------------------------- |
 | Total Bilirubin | Right-skewed                     | High          | Elevated in liver disease patients |
 | SGPT (ALT)      | Highly right-skewed              | Very High     | Indicates liver cell injury        |
 | Albumin         | Near-normal/slightly left-skewed | Moderate-Low  | Reduced in liver dysfunction       |
 
 📊 Interpretation
-Enzyme markers (SGPT) show high variability and skewness
+Enzyme markers (SGPT) show high variability and skewness.
 Albumin remains more stable but decreases in diseased patients
 
 ### 2. Correlation Between SGPT, SGOT, and Total Bilirubin
