@@ -141,8 +141,8 @@ The dataset consists of **30,000 patient records** with demographic and biochemi
 ## 💻 Data Analysis Code (Excel Implementation)
 
 ### 📂 1. Data Preparation
-      #### Remove missing values (Filter → Blanks → Delete)
-      #### Ensure numeric formatting for biomarkers
+           Remove missing values (Filter → Blanks → Delete)
+           Ensure numeric formatting for biomarkers
 Total_Bilirubin → Number
 
 SGPT → Number 
@@ -152,12 +152,12 @@ Albumin → Number
 Selector → Number (0 or 1) 
 
 ### 📊 2. Distribution & Average (Q1)
-        ####📌 Descriptive Statistics (Excel ToolPak)
+          📌 Descriptive Statistics (Excel ToolPak)
 Data → Data Analysis → Descriptive Statistics. 
 Input Range: Select each biomarker column. 
 Output: Summary Statistics. 
 
-        ####📌 Excel Functions
+        📌 Excel Functions
         Mean:
         =AVERAGE(B2:B30001)
 
@@ -167,7 +167,7 @@ Output: Summary Statistics.
         Standard Deviation:
         =STDEV.P(B2:B30001)
 
-        ####📌 Histogram (Distribution)
+        📌 Histogram (Distribution)
         Insert → Chart → Histogram
         Select:
         - Total Bilirubin
@@ -176,7 +176,7 @@ Output: Summary Statistics.
 
 ### 🔗 3. Correlation Analysis
   
-   ####📌 Correlation Matrix (ToolPak)
+         📌 Correlation Matrix (ToolPak)
           Data → Data Analysis → Correlation    
           Input Range:
           SGPT, SGOT, Total Bilirubin columns
@@ -184,7 +184,7 @@ Output: Summary Statistics.
           Grouped by: Columns
           Output: Correlation Matrix
   
-  ####📌 Excel Function Alternative
+        📌 Excel Function Alternative
           * =CORREL(SGPT_range, SGOT_range)
           * =CORREL(SGPT_range, Bilirubin_range)
           * =CORREL(SGOT_range, Bilirubin_range)
