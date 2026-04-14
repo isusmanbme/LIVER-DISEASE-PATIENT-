@@ -36,7 +36,7 @@ Albumin remains more stable but decreases in diseased patients
 
 * **SGPT and SGOT**: Strong positive correlation (both liver enzymes rise together).
 * **SGPT and Total Bilirubin**: Moderate positive correlation.
-* **SGOT and Total Bilirubin**: Moderate positive relationship.
+* **SGOT and Total Bilirubin**: Moderate positive relationship.  
   👉 This indicates coordinated liver dysfunction.
 
 | Variables               | Relationship Strength | Direction |
@@ -56,7 +56,7 @@ Bilirubin increases alongside enzyme elevation → coordinated liver dysfunction
   * **SGPT (ALT)**
   * **SGOT (AST)**
   * **Total Bilirubin**
-  * **Albumin (negative influence)**
+  * **Albumin (negative influence)**  
     👉 These variables significantly contribute to predicting liver disease status.
 
 | Variable        | Influence on Disease | Significance |
@@ -74,7 +74,7 @@ Higher albumin → protective indicator
 
 * **Total Bilirubin**: Significantly higher in liver patients
 * **SGPT**: Markedly elevated in liver patients
-* **Albumin**: Significantly lower in liver patients
+* **Albumin**: Significantly lower in liver patients  
   👉 Clear biochemical distinction exists between both groups.
 
 | Biomarker       | Liver Patients (Selector = 1) | Non-Liver Patients (Selector = 0) | Difference    |
@@ -91,7 +91,7 @@ Confirms clear biochemical separation between groups
 
 ### 5. Strongest Biomarker & Clinical Interpretation
 
-* **SGPT (ALT)** is typically the strongest predictor
+* **SGPT (ALT)** is typically the strongest predictor  
   👉 Clinical meaning:
 * Elevated SGPT indicates **hepatocellular injury**
 * It is a **sensitive marker for liver damage**, especially in early-stage disease
@@ -337,12 +337,9 @@ This project demonstrates how Excel can be effectively used for **clinical data 
 ## 👤 Author
 For collaboration, further study, or inquiries related to this project, please feel free to reach out via email:
 # Ibrahim Salihu Usman
-Biomedical Engineering | Data Analytics | AI in Healthcare
-
-📧 isusmanbme@gmail.com
-
-📱 WhatsApp: +234 813 811 8881
-
-linkedin.com/in/ibrahim-salihu-usman-b22b6868
+Biomedical Engineering | Data Analytics | AI in Healthcare  
+📧 isusmanbme@gmail.com  
+📱 WhatsApp: +234 813 811 8881  
+linkedin.com/in/ibrahim-salihu-usman-b22b6868  
 
 
