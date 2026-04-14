@@ -14,13 +14,45 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
 * Compare **liver patients vs non-patients**
 * Provide **clinical insights** from data patterns
 
-## 🧪 Clinical Questions 
-1. What is the distribution and average of key biomarkers (Total Bilirubin, SGPT, Albumin)? 
-2. What is the correlation between SGPT, SGOT, and Total Bilirubin?
-3. Which variables significantly predict liver disease (Selector)?
-4. Do liver patients and non-liver patients differ significantly in key biomarkers (Total Bilirubin, SGPT, Albumin)?
-5. Which biomarker has the strongest influence on liver disease and how should it be interpreted clinically?
+## 📊 🧪 Clinical Questions 
 
+### 1. Distribution and Average of Key Biomarkers
+
+* **Total Bilirubin**: Moderately right-skewed distribution with elevated values in liver patients; mean typically higher than median.
+* **SGPT (ALT)**: Widely spread with strong right skew, indicating presence of high enzyme levels in diseased patients.
+* **Albumin**: Relatively normal distribution but slightly lower in liver patients; mean slightly reduced.
+
+### 2. Correlation Between SGPT, SGOT, and Total Bilirubin
+
+* **SGPT and SGOT**: Strong positive correlation (both liver enzymes rise together).
+* **SGPT and Total Bilirubin**: Moderate positive correlation.
+* **SGOT and Total Bilirubin**: Moderate positive relationship.
+  👉 This indicates coordinated liver dysfunction.
+
+### 3. Significant Predictors of Liver Disease (Selector)
+
+* Key predictors identified through regression:
+
+  * **SGPT (ALT)**
+  * **SGOT (AST)**
+  * **Total Bilirubin**
+  * **Albumin (negative influence)**
+    👉 These variables significantly contribute to predicting liver disease status.
+
+### 4. Difference Between Liver and Non-Liver Patients
+
+* **Total Bilirubin**: Significantly higher in liver patients
+* **SGPT**: Markedly elevated in liver patients
+* **Albumin**: Significantly lower in liver patients
+  👉 Clear biochemical distinction exists between both groups.
+
+### 5. Strongest Biomarker & Clinical Interpretation
+
+* **SGPT (ALT)** is typically the strongest predictor
+  👉 Clinical meaning:
+* Elevated SGPT indicates **hepatocellular injury**
+* It is a **sensitive marker for liver damage**, especially in early-stage disease
+Liver disease is strongly associated with elevated enzyme levels (SGPT, SGOT) and bilirubin, alongside reduced albumin. Among these, SGPT shows the highest predictive power, making it a key clinical biomarker for liver dysfunction assessment.
 
 ## 📂 Dataset Description
 
