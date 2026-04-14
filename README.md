@@ -59,7 +59,7 @@ Bilirubin increases alongside enzyme elevation → coordinated liver dysfunction
   * **Albumin (negative influence)**
     👉 These variables significantly contribute to predicting liver disease status.
 
-  | Variable        | Influence on Disease | Significance |
+| Variable        | Influence on Disease | Significance |
 | --------------- | -------------------- | ------------ |
 | SGPT (ALT)      | Strong Positive      | High         |
 | SGOT (AST)      | Strong Positive      | High         |
