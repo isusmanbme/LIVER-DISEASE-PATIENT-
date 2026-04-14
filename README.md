@@ -14,6 +14,14 @@ This project presents a comprehensive analysis of **30,000 liver disease patient
 * Compare **liver patients vs non-patients**
 * Provide **clinical insights** from data patterns
 
+## 🧪 Clinical Questions 
+1. What is the distribution and average of key biomarkers (Total Bilirubin, SGPT, Albumin)? 
+2. What is the correlation between SGPT, SGOT, and Total Bilirubin?
+3. Which variables significantly predict liver disease (Selector)?
+4. Do liver patients and non-liver patients differ significantly in key biomarkers (Total Bilirubin, SGPT, Albumin)?
+5. Which biomarker has the strongest influence on liver disease and how should it be interpreted clinically?
+
+
 ## 📂 Dataset Description
 
 The dataset consists of **30,000 patient records** with demographic and biochemical features.
