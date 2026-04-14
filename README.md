@@ -338,6 +338,11 @@ This project demonstrates how Excel can be effectively used for **clinical data 
 For collaboration, further study, or inquiries related to this project, please feel free to reach out via email:
 # Ibrahim Salihu Usman
 Biomedical Engineering | Data Analytics | AI in Healthcare
+
 📧 isusmanbme@gmail.com
+
 📱 WhatsApp: +234 813 811 8881
+
+linkedin.com/in/ibrahim-salihu-usman-b22b6868
+
 
